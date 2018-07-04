@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_mail"
+        android:icon="@drawable/baseline_mail_white_24"
+        android:title="@string/action_mail"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/app_bar_delete"
+        android:icon="@drawable/baseline_delete_white_24"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/app_bar_archieve"
+        android:icon="@drawable/baseline_archive_white_24"
+        android:title="@string/action_archieve"
+        app:showAsAction="ifRoom"/>
+
+</menu>
